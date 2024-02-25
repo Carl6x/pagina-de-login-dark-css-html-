@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+      font-family: "Noto sans", sans-serif;
+      box-sizing: border-box;
+      margin:0
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201b2c;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    color: #77ffc0;
+}
+.left-login > img{
+    width: 60%;
+}
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0 10px #00000056;
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-start;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+
+.text-field > h1 {
+    align-self: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:  #00ff88;
+}
+
+.text-field > input{
+    width:100%;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    background-color:  #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.text-field > label{
+    color: white;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.text-field > input::placeholder{
+    color: #f0ffffde;
+}
+
+.btn{
+    width: 100%;
+
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    box-sizing: border-box;
+    margin: 25px 0;
+    border-radius: 13px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #2b134b;
+    font-weight: 800;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    background-color: #00ff88;
+    cursor: pointer;
+}
